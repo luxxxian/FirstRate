@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/third"
+    android:padding="18dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="35dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tream"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="28dp"
+                android:gravity="center"
+                android:text="@string/app_team"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="28dp"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/point3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="btn_piont3"
+                android:text="@string/point3_str" />
+
+            <Button
+                android:id="@+id/point2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="btn_piont2"
+                android:text="@string/point2_str" />
+
+            <Button
+                android:id="@+id/point1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="btn_piont1"
+                android:text="@string/point1_str" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="35dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/treamb"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="28dp"
+                android:gravity="center"
+                android:text="TeamB"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/numberb"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="28dp"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/point3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="btn_piont3"
+                android:text="@string/point3_str" />
+
+            <Button
+                android:id="@+id/point2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="btn_piont2"
+                android:text="@string/point2_str" />
+
+            <Button
+                android:id="@+id/point1b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:onClick="btn_piont1"
+                android:text="@string/point1_str" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="11dp"
+        android:onClick="btn_res"
+        android:text="@string/res_str" />
+
+</RelativeLayout>

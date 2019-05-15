@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">来自你的朋友</string>
-    <string name="app_tom">汤姆</string>
     <string name="app_button">生日快乐</string>
+    <string name="btn_str">转化为华氏温度</string>
+    <string name="hint_str">请输入摄氏温度</string>
+    <string name="app_team">A队</string>
+    <string name="point3_str">3分</string>
+    <string name="point2_str">2分</string>
+    <string name="point1_str">1分</string>
+    <string name="res_str">清空</string>
+
 </resources>

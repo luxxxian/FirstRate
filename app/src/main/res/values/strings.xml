@@ -1,4 +1,18 @@
 <resources>
     <string name="app_button">Happy birthday</string>
     <string name="app_name">From your friend</string>
+    <string name="btn_str">Into Fahrenheit</string>
+    <string name="hint_str">Please enter Celsius</string>
+    <string name="point3_str">3 POINTS</string>
+    <string name="point2_str">2 POINTS</string>
+    <string name="point1_str">1 POINT</string>
+    <string name="app_team">TeamA</string>
+    <string name="res_str">RESET</string>
+    <string name="btn_dollar_label" translatable="false">Dollar</string>
+    <string name="btn_euro_label" translatable="false">Euro</string>
+    <string name="btn_won_label" translatable="false">Won</string>
+    <string name="rmb_hint">Input RMB</string>
+    <string name="btn_opencfg_label">Config</string>
+    <string name="btn_save_label">Save</string>
+    <string name="lable_open_list">OpenList</string>
 </resources>
